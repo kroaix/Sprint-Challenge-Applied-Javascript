@@ -30,13 +30,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the DOM?
 
+The DOM is an object that contains all of the elements that display on the page. It is a tree data structure and the leaves are nodes/elements.
+
 2. What is an event?
+
+Events occur no matter what you are doing on the page - whether it be scrolling, hovering, clicking, using your keyboard.. these trigger events which you can use the DOM to manipulate.
 
 3. What is an event listener?
 
+An event listener is what you utilize to manipulate these events if you want to change their behaviour or add functionality.
+
 4. Why would we convert a NodeList into an Array?
 
+Nodelists are array-like but they do not allow us to use methods such as .map() and .filter().
+
 5. What is a component?
+
+Components are used to keep your code DRY. You can customize styling and functionality and reuse it on multiple elements. 
 
 ### Git Set up
 
